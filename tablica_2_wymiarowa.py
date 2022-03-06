@@ -23,3 +23,6 @@ while i < x:
     i+=1
 
 print( tab)
+
+#tablica 3 wymiarowa:
+array = [[ ['*' for col in range(6)] for col in range(4)] for row in range(3)] # na koncu jest 1 element
